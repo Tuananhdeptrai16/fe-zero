@@ -1,0 +1,52 @@
+.workspaceColWrapper {
+  background-color: #dadada;
+  width: 280px;
+  padding-bottom: 10px;
+
+  border-radius: 6px;
+  @media screen and (min-width: 1300px) {
+    width: 300px;
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 400px;
+  }
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.workspaceColContent {
+  background-color:#aeafb8;
+  height: 60px;
+  cursor: grab;
+  border-radius: 6px 6px 0 0;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.workspaceColTitle {
+  background: @primary-color;
+  color: #FFFFFF;
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 100%;
+}
+
+.workspaceDraggingHover {
+  opacity: 0.3;
+}
+
+.workspaceTaskWrapper {
+  background-color: #FFFFFF;
+  padding: 20px 10px;
+  text-align: left;
+  border-radius: 12px;
+  &:hover{
+    background-color: #f5f5f5;
+  }
+}
+
+.workspaceTaskLabel {
+  margin-top: auto;
+  margin-bottom: auto;
+  white-space: pre-wrap;
+}

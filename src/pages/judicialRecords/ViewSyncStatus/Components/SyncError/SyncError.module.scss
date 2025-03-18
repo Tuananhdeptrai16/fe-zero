@@ -1,0 +1,46 @@
+
+.syncError_modal {
+
+  & :global .ant-modal-content {
+    padding: 0;
+  }
+
+  & :global .ant-result {
+    padding: 0;
+  }
+
+  & :global .ant-result-icon {
+    .anticon {
+      color: rgba(245, 34, 45, 1);
+      font-size: 64px;
+    }
+  }
+
+  & :global .ant-result-title {
+    //styleName: H4/semibold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 8px;
+
+  }
+
+  & :global .ant-result-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.85);
+  }
+
+  .contentEroor {
+    margin: 0;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+    &:last-child {
+      border-color: transparent;
+    }
+  }
+}
+

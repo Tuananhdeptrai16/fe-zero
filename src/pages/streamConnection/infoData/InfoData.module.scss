@@ -1,0 +1,26 @@
+.form_steps_modal {
+  & :global {
+    .ant-steps {
+      display: none;
+    }
+
+    .steps-action {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .ant-modal-body {
+      padding: 40px;
+    }
+  }
+}
+
+.form_info_data_modal {
+  // & :global {
+    .ant-modal-body {
+      padding: 25px 185px;
+    }
+  // }
+}

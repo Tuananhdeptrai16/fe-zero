@@ -1,0 +1,23 @@
+@import 'src/shared/styles/variable';
+
+.input-layout-type-container_images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.input-layout-type-image-item {
+  width: 32%;
+  padding: 12px;
+  border: 1px solid @border-color-base;
+  margin-bottom: 10px;
+  border-radius: @border-radius-base;
+  cursor: pointer;
+  &-active {
+    border-color: @primary-color;
+  }
+  .image-item__title {
+    margin: 0;
+    margin-top: 12px;
+    text-align: center;
+  }
+}

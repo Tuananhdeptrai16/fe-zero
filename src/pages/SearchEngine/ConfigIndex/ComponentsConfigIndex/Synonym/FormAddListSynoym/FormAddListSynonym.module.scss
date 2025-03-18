@@ -1,0 +1,18 @@
+.wrapFormAddListSynonym{
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 16px 16px;
+  border-radius: 4px;
+
+  & :global .ant-tag{
+    font-size: 14px;
+    padding: 3px 6px;
+  }
+
+  .btnAddTag{
+    margin-top:8px;
+    margin-bottom:8px;
+  }
+  .inputImportText{
+    margin-top: 16px;
+  }
+}

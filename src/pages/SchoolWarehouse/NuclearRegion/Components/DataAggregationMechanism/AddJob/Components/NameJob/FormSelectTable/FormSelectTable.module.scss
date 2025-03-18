@@ -1,0 +1,24 @@
+.wrapFormSelectTable{
+  .formCheckBox{
+    & :global .ant-row{
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 6px;
+    }
+
+    & :global .ant-form-item{
+      margin-bottom:4px;
+    }
+
+    & :global .ant-form-item-control{
+      flex:0;
+    }
+    & :global .ant-form-item-label{
+      padding-bottom:0;
+      label{
+        cursor: pointer;
+      }
+    }
+  }
+}

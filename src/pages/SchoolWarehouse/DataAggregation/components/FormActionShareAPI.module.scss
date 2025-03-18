@@ -1,0 +1,19 @@
+.label_select_table {
+    display: inline-block;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    position: relative;
+    padding-right: 10px;
+
+    &::after {
+        position: absolute;
+        right: 0px;
+        top: 0;
+        display: inline-block;
+        color: #ff4d4f;
+        font-size: 14px;
+        font-family: SimSun, sans-serif;
+        line-height: 1;
+        content: '*';
+    }
+}

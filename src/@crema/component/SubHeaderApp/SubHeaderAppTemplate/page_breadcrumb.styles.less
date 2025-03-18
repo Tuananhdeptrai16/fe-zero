@@ -1,0 +1,32 @@
+@import '../../../../shared/styles/variable.less';
+.page_breadcrumb-wrapper {
+  padding: 8px 12px;
+  background-color: @white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page_breadcrumb-container {
+  .page_breadcrumb__page-title {
+    font-size: @heading-3-size;
+    line-height: 1.4;
+  }
+  .page_breadcrumb__item {
+    font-size: @font-size-sm;
+    line-height: 1.57;
+    cursor: default;
+  }
+  @media screen and (min-width: @screen-md) {
+    padding: 16px 24px;
+    .page_breadcrumb__page-title {
+      font-size: @heading-2-size;
+      font-weight: @font-weight-medium;
+      margin: 0;
+      margin-top: 6px;
+    }
+    .page_breadcrumb__item {
+      cursor: default;
+      font-size: @font-size-base;
+    }
+  }
+}

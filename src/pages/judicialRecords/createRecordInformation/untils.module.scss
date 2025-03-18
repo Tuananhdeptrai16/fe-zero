@@ -1,0 +1,32 @@
+.areSynchronizing{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  & :global .ant-progress-outer{
+    width:68px;
+  }
+
+  .text{
+    min-width: 100px;
+  }
+}
+
+.sync_success {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  .personalInformation_icon {
+    width: 16px;
+    height: 16px;
+
+  }
+
+  .personalInformation_text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.85);
+  }
+}

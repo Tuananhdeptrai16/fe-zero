@@ -1,0 +1,38 @@
+.wrapMainLayOutShareAPI{
+  background-color: white;
+  padding:16px;
+  border-radius: 4px;
+  min-height: calc(100vh - 220px);
+  .contentLeft{
+    border-right: 1px solid #e5e5e5;
+
+    & :global .ant-steps-item-title{
+      font-size: 14px;
+    }
+    & :global .ant-steps-item-icon{
+      width: 26px;
+      height: 26px;
+      line-height: 26px;
+      margin-right: 8px !important;
+      font-size: 14px;
+    }
+    & :global .ant-steps-item-container{
+      padding-bottom:6px;
+    }
+    & :global .ant-steps-item-content{
+      .ant-steps-item-title{
+        padding-right:0;
+      }
+    }
+    & :global .ant-steps-item-tail{
+      left: 13px !important;
+    }
+  }
+
+  // content right
+  .contentRight{
+    & :global .data-table-header{
+      padding:14px 0 !important;
+    }
+  }
+}

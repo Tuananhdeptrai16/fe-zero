@@ -1,0 +1,10 @@
+.dataTableSetting {
+  min-width: 210px !important;
+  max-width: 300px !important;
+  :global {
+    .ant-popover-inner-content {
+      padding-left: 0;
+      width:100% !important
+    }
+  }
+}

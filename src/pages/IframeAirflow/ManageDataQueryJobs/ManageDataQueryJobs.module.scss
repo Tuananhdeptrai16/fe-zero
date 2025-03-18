@@ -1,0 +1,12 @@
+.wrapIframeAirflow{
+  background-color: white;
+  padding: 16px 24px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+
+  .iframeAirflow{
+    border: none;
+    margin-top:-80px;
+  }
+}

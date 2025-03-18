@@ -1,0 +1,59 @@
+.wrapConfig_index{
+  background-color: white;
+  border-radius: 4px;
+  padding:16px 24px;
+  min-height:calc(100vh - 140px);
+
+  .config_index_nameSource{
+      font-size: 18px;
+      text-align: center;
+      background-color: rgb(249, 227, 183);
+      padding: 3px;
+      border-radius: 4px;
+      color: rgba(0, 0, 0, 0.85);
+      box-shadow: 0 0 1px 0px rgb(215, 174, 93);
+      margin-bottom:16px;
+  }
+
+  .content_config_index{
+    
+  }
+
+  .divider_header{
+    margin: 14px 0 !important;
+  }
+  
+  .config_index_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .config_index_title{
+    font-size: 20px;
+    margin:0;
+    }
+    .wrapActions{
+       display: flex;
+       align-items: center;
+       gap:16px;
+    }
+  }
+
+  .wrapName_index{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    flex-wrap: wrap;
+
+    .text{
+      margin:0;
+    }
+    .tag{
+      font-size: 16px;
+      display: -webkit-box;
+     -webkit-box-orient: vertical;
+     -webkit-line-clamp: 1;
+     overflow: hidden;
+     text-overflow: ellipsis;
+    }
+  }
+}

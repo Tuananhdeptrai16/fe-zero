@@ -1,0 +1,229 @@
+:root {
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --bold: 600;
+  --extra-bold: 700;
+  font-family: 'Roboto', serif;
+}
+
+body {
+  line-height: 1.35 !important;
+  font-family: 'Roboto', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: @font-size-lg;
+}
+
+h5 {
+  font-size: @font-size-base;
+}
+
+h6 {
+  font-size: @font-size-base;
+}
+
+.ant-w-100 {
+  width: 100%;
+}
+
+.ant-d-flex {
+  display: flex;
+}
+
+td {
+  vertical-align: inherit;
+}
+
+.ant-align {
+  &-center {
+    align-items: center;
+  }
+
+  &-start {
+    align-items: flex-start;
+  }
+
+  &-end {
+    align-items: flex-end;
+  }
+}
+
+.ant-justify {
+  &-center {
+    justify-content: center;
+  }
+
+  &-start {
+    justify-content: flex-start;
+  }
+
+  &-end {
+    justify-content: flex-end;
+  }
+  &-between {
+    justify-content: space-between;
+  }
+}
+
+.ant-pagination-total-text {
+  margin-right: auto;
+}
+
+.ant-pagination {
+  margin-right: 16px!important;
+  margin-left: 16px!important;
+}
+
+.ant-pagination-item-active {
+  background-color: @primary-color;
+  
+  a {
+    color: #fff;
+  }
+
+  &:hover {
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.ant-form-vertical .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    position: absolute;
+    right: -12px;
+}
+
+.ant-form-horizontal .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  position: absolute;
+  right: 8px;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+  margin-left: 10px;
+}
+
+.text-primary {
+  color: @primary-color;
+}
+.text-secondary {
+  color: @grey-700
+}
+ .font-bold {
+   font-weight: bold;
+ }
+
+ .table-td-align-top {
+   td.ant-table-cell {
+     vertical-align: top;
+   }
+ }
+
+ .ant-upload-list-item-thumbnail {
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+ }
+
+.ant-upload-list-picture .ant-upload-list-item, .ant-upload-list-picture-card .ant-upload-list-item {
+  padding: 0;
+}
+
+.dynamic-delete-button {
+  position: relative;
+  top: 4px;
+  margin: 0 8px;
+  color: @danger-color;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.dynamic-delete-button:hover {
+  color: rgba(@danger-color, 0.8);
+}
+.dynamic-delete-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+[data-theme="dark"] .dynamic-delete-button {
+  color: rgba(255,255,255,.45);
+}
+[data-theme="dark"] .dynamic-delete-button:hover {
+  color: rgba(255,255,255,.65);
+}
+
+.order-page .ant-row {
+  & > .ant-col {
+    @media screen and (min-width: @screen-xl) {
+      margin-bottom: @col-margin-res;
+    }
+  }
+}
+
+.ant-form-horizontal {
+  .ant-form-item-label {
+    white-space: normal;
+    
+    & > label {
+      align-items: flex-start;
+      margin-top: 6px;
+      height: auto;
+    }
+  }
+}
+
+.ant-h-full {
+  height: 100%;
+}
+
+.icon-path-fill-white{
+  path {
+    fill: @white;
+  }
+}
+.icon-path-fill-black{
+  path {
+    fill: '#111827;';
+  }
+}
+
+.italic {
+  font-style: italic;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.fz-16 {
+  font-size: 16px;
+}

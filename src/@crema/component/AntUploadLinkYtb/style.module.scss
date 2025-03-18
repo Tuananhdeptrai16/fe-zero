@@ -1,0 +1,46 @@
+
+
+.wrapper {
+  position: relative;
+}
+
+.uploadIcon {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.closeIcon {
+
+  font-size: 32px;
+  background: #e0e0e0;
+  color: white;
+  border-radius: 100%;
+}
+
+.btn {
+  width: 148px;
+  height: 54px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #9c6f1a !important;
+}
+
+.medias {
+  position: relative;
+  &:hover .deleteVideoIcon {
+    display: block;
+  }
+}
+
+.deleteVideoIcon {
+  display: none;
+  font-size: 32px;
+  background: #e0e0e0;
+  color: white;
+  border-radius: 100%;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}

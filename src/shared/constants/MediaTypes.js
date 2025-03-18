@@ -1,0 +1,15 @@
+export const MAP_MIME_TYPE_2_EXTENSION = {
+  '.pdf': 'application/pdf',
+  '.png': 'image/png',
+  '.jpeg': 'image/jpeg',
+  '.jpg': 'image/jpeg',
+  '.svg': 'image/svg+xml',
+  '.gif': 'image/gif',
+  '.mp4': 'video/mp4',
+  '.mpeg': 'video/mpeg',
+  '.mp3': 'audio/mpeg',
+  '.csv': 'text/csv',
+  '.gz': 'application/gzip',
+  '.jar': 'application/java-archive',
+  '.zip': 'application/zip',
+};

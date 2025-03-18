@@ -1,0 +1,194 @@
+.wrapFormMethod{
+  border: 1px solid rgba(240, 240, 240, 1);
+  border-radius: 8px;
+  padding: 16px;
+
+  & :global .ant-card-body{
+    padding: 16px;
+  }
+
+  & :global .ant-card{
+    margin-top:14px;
+  }
+
+  .methodHeader{
+    & :global .ant-form-item{
+      margin-bottom:0;
+    }
+  }
+
+  & :global .ant-input-group-addon{
+    padding:0;
+    z-index:99;
+    &:hover{
+      opacity: 0.8;
+      cursor: pointer;
+      transition: all 0.1s linear;
+    }
+    .anticon {
+      padding: 0 11px;
+    }
+  }
+
+}
+
+.wrapInputUser{
+  margin-top: 12px;
+  & :global .ant-collapse{
+    border: 1px solid rgba(240, 240, 240, 1);
+    border-radius: 8px;
+  }
+
+  & :global .ant-collapse-item{
+    border-bottom: none;
+  }
+
+  & :global .ant-collapse-content{
+    border-radius: 0 0 8px 8px !important;
+  }
+
+  & :global .ant-collapse-header{
+    background-color: rgba(255, 241, 240, 1);
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 8px 8px 0 0 !important;
+  }
+
+  & :global .ant-collapse-content-box{
+    padding: 16px 24px;
+  }
+
+
+}
+
+
+
+
+
+.wrapFormAuth{
+  & :global .ant-collapse{
+    border: 1px solid rgba(240, 240, 240, 1);
+    border-radius: 8px;
+  }
+
+  & :global .ant-collapse-item{
+    border-bottom: none;
+  }
+
+  & :global .ant-collapse-content{
+    border-radius: 0 0 8px 8px !important;
+  }
+
+  & :global .ant-collapse-header{
+    font-weight: 500;
+  }
+
+  .refresh_request_body{
+    & :global .ant-collapse-header{
+     padding-bottom:0;
+    }
+  }
+}
+
+.wrapFormSessionToken{
+  & :global .ant-collapse{
+    border: 1px solid rgba(240, 240, 240, 1);
+    border-radius: 8px;
+  }
+
+  & :global .ant-collapse-item{
+    border-bottom: none;
+  }
+
+  & :global .ant-collapse-content{
+    border-radius: 0 0 8px 8px !important;
+  }
+
+  & :global .ant-collapse-header{
+    font-weight: 500;
+  }
+  .request_parameters{
+    margin-bottom:12px;
+  }
+}
+
+.formStream{
+  margin-top:12px;
+  border-radius: 8px;
+  border: 1px solid 
+  rgba(240, 240, 240, 1);
+  padding: 16px;
+}
+.wrapFormModalAddStream{
+  .formInputSwitch{
+    & :global .ant-row{
+     flex-direction: row-reverse;
+     justify-content: flex-end;
+     gap:8px;
+    }
+    & :global .ant-form-item-control{
+     flex:0;
+    }
+ 
+    & :global .ant-form-item{
+     margin-bottom: 8px;
+    }
+   }
+}
+
+.wrapFormSettingSchema{
+  & :global .ant-card-body{
+    padding: 16px;
+  }
+  & :global .ant-card{
+   margin-bottom:8px;
+  }
+  .formCheckBox{
+    & :global .ant-row{
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 6px;
+    }
+
+    & :global .ant-form-item{
+      margin-bottom:4px;
+    }
+
+    & :global .ant-form-item-control{
+      flex:0;
+    }
+    & :global .ant-form-item-label{
+      padding-bottom:0;
+      label{
+        cursor: pointer;
+      }
+    }
+  }
+  .formInputSettingSwitch{
+    & :global .ant-row{
+     flex-direction: row-reverse;
+     justify-content: flex-end;
+     gap:8px;
+    }
+    & :global .ant-form-item-control{
+     flex:0;
+    }
+  
+    & :global .ant-form-item{
+     margin-bottom: 8px;
+    }
+   }
+   .type_request_body_setting{
+    & :global .ant-form-item{
+      margin-bottom:2px;
+    }
+   }
+
+   .formItemMB1{
+    & :global .ant-form-item{
+      margin-bottom:4px;
+    }
+   }
+}
+

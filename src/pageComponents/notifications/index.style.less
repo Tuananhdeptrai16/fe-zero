@@ -1,0 +1,19 @@
+@import "src/shared/styles/variable";
+.itemNotify {
+  padding:12px 24px;
+  cursor: pointer;
+  &:hover {
+    background: @bg-primary-color;
+  }
+}
+.unreadItem {
+  background: @bg-primary-color;
+  &.ant-list-item {
+  border-bottom-color: rgba(0, 0, 0, 0.12)
+  }
+}
+
+.list-notify {
+  padding-top: 0;
+  padding-bottom: 0;
+}

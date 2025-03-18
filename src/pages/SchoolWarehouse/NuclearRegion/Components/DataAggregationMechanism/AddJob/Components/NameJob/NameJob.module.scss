@@ -1,0 +1,140 @@
+.wrapListIconJoin{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  .wrapIconRadio{
+    border: 1px solid transparent;
+    height: auto !important;
+    border-radius: 4px;
+    line-height: unset !important;
+    min-width: 150px;
+    text-align: center;
+    transition: all 0.1s linear;
+    &::before{
+      display: none !important;
+    }
+
+    .icon{
+
+    }
+
+    .textTypeJoin{
+      margin:0;
+    }
+    &:hover{
+      border-color:  rgba(255, 204, 199, 1);
+      background-color: rgba(255, 241, 240, 1);
+    }
+  }
+
+  & :global .ant-radio-button-wrapper-checked{
+     border-color:rgba(255, 204, 199, 1) !important;
+     background-color: rgba(255, 241, 240, 1) !important;
+  }
+}
+
+.nameJob_addKey{
+  position: absolute;
+  top:0;
+  right:0;
+  z-index:10;
+}
+
+.wrapFormAddKeys{
+  position: relative !important;
+  & :global .ant-space-item:nth-child(2n + 1){
+    flex:1;
+  }
+  .iconEqual{
+    font-size: 16px;
+    color:rgba(191, 191, 191, 1);
+  }
+}
+
+.label_select_table{
+   display: inline-block; 
+   margin-top: 6px; 
+   margin-bottom:6px;
+   position: relative;
+   padding-right:10px;
+   
+   &::after{
+    position: absolute;
+    right: 0px;
+    top:0;
+    display: inline-block;
+    color: #ff4d4f;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: '*';
+   }
+
+   &::before{
+    position: absolute;
+    right: -7px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: ':';
+    top: 50%;
+    transform: translateY(-50%);
+   }
+}
+
+.renderNotFoundItem{
+  text-align: center;
+
+  .notFoundIcon{
+    font-size: 20px;
+  }
+  .notFoundText{
+    margin-bottom: 0;
+    color:#f97316
+  }
+}
+
+
+.wrapFormExpCron{
+  position: relative;
+  .iconHelpCron{
+    color: red;
+    position: absolute;
+    cursor: pointer;
+    top: 9px;
+    left: 108px;
+  }
+}
+
+
+:global(.ant-popover-message-icon){
+  color:#40a9ff;
+  position: relative;
+  top: -6px;
+}
+
+:global(.ant-popover-inner-content){
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 0!important;
+}
+
+:global(.ant-popover-buttons){
+  display: none;
+}
+
+.wrapContentHelpCron{
+  .content_title{
+   margin-bottom:30px;
+  }
+}
+
+.wrapNameJob{
+  & :global .ant-card{
+    border-radius: 0 !important;
+    box-shadow: unset !important;
+  }
+}

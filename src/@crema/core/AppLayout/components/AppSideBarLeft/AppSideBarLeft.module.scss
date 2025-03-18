@@ -1,0 +1,15 @@
+
+@import '../../../../../shared/styles/scss/variables';
+
+.wrapAppSideBarLeft{
+  background-color: white;
+  position: fixed;
+  left: 0;
+  top: $headerHeight;
+  bottom: 0;
+  width: $width-sidebar-left;
+}
+
+.appScrollBarSideBarLeft{
+  max-height: calc(100vh - ($headerHeight));
+}

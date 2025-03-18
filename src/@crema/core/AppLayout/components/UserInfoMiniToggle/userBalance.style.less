@@ -1,0 +1,64 @@
+@import '../../../../../shared/styles/variable';
+@import '../../../../../shared/styles/mixin';
+
+.cr-user-mini-toggle-balance {
+  background-color: transparent;
+  padding: 7px 12px;
+  min-height: @header-height-sm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .transition(all 0.2s ease);
+
+  @media screen and (min-width: @screen-md) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: @header-height-lg;
+  }
+}
+
+.cr-user-mini-toggle-balance-inner {
+  align-items: center;
+}
+
+.cr-user-mini-toggle-balance-content {
+  width: calc(100% - 62px);
+  margin-right: auto;
+  .transition(all 0.2s ease);
+  display: none;
+  @media screen and (min-width: @screen-md) {
+    display: unset;
+  }
+  [dir='rtl'] & {
+    margin-left: 0;
+    margin-right: 16px;
+  }
+}
+
+.cr-user-mini-toggle-name-balance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cr-user-mini-toggle-name {
+  font-size: @font-size-base;
+  font-weight: @font-weight-medium;
+  color: inherit;
+
+  &.light {
+    color: inherit;
+  }
+}
+
+.cr-user-mini-toggle-balance-amount {
+  font-weight: bold;
+  color: @primary-color;
+}
+
+.cr-user-mini-toggle-budget {
+  font-size: 8px;
+  line-height: 2.5;
+  color: @text-light-gray;
+  text-align: right;
+}

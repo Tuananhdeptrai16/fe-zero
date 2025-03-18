@@ -1,0 +1,22 @@
+.wrapHistoryRunJob{
+  .headerSearch{
+    border:1px solid #ccc;
+    border-radius: 4px;
+    padding:18px 12px;
+    position: relative;
+    margin-bottom:12px;
+   
+    .search_title{
+      position: absolute;
+      top: -13px;
+      left: 15px;
+      margin: 0;
+      padding: 0px 6px;
+      background-color: white;
+    }
+  }
+
+  & :global .ant-form-item{
+    margin-bottom:12px;
+  }
+}

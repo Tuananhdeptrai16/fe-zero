@@ -1,0 +1,159 @@
+@import '../../../../../shared/styles/variable';
+@import '../../../../../shared/styles/mixin';
+
+.cr-user-mini-toggle-info {
+  background-color: transparent;
+  // padding: 7px 12px;
+  min-height: @header-height-sm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .transition(all 0.2s ease);
+
+  @media screen and (min-width: @screen-md) {
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+    width: 250px;
+    min-height: @header-height-lg;
+  }
+
+  & .ant-dropdown-link {
+    color: inherit;
+
+    & .anticon {
+      font-size: @font-size-sm;
+    }
+  }
+
+  &.light {
+    & .ant-dropdown-link {
+      color: inherit;
+    }
+
+    & .cr-user-mini-toggle-name {
+      color: inherit;
+    }
+  }
+}
+
+.cr-user-mini-toggle-info-inner {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  @media screen and (min-width: @screen-md) {
+    gap: 12px;
+  }
+}
+
+.cr-user-mini-toggle-info-avatar {
+  font-size: 16px;
+  background-color: @orange-6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cr-user-mini-toggle-info-content {
+  width: calc(100% - 72px);
+  margin-right: auto;
+  .transition(all 0.2s ease);
+  [dir='rtl'] & {
+    margin-left: 0;
+    margin-right: 16px;
+  }
+  display: none;
+  @media screen and (min-width: @screen-md) {
+    display: block;
+  }
+}
+
+.cr-user-mini-toggle-name-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.cr-user-mini-toggle-name {
+  margin-bottom: 0;
+  font-size: @font-size-base;
+  font-weight: @font-weight-medium;
+  color: inherit;
+
+  &.light {
+    color: inherit;
+  }
+}
+
+.cr-user-mini-toggle-arrow {
+  width: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  [dir='rtl'] & {
+    margin-left: 0;
+  }
+
+  & svg {
+    display: block;
+  }
+}
+
+.cr-user-mini-toggle-designation {
+  margin-top: -2px;
+  color: inherit;
+
+  .ant-layout-sider-dark & {
+    color: inherit;
+  }
+}
+
+.dropdown-list {
+  & .ant-list-item {
+    padding: 5px 12px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: darken(@component-background, 3);
+    }
+  }
+}
+
+.cr-user-mini-toggle-info-hasColor {
+  & .ant-dropdown-link {
+    color: inherit;
+  }
+
+  &.light {
+    & .ant-dropdown-link {
+      color: inherit;
+    }
+
+    & .cr-user-mini-toggle-name {
+      color: inherit;
+    }
+  }
+
+  & .cr-user-mini-toggle-designation {
+    color: inherit;
+
+    .ant-layout-sider-dark & {
+      color: inherit;
+    }
+  }
+
+  & .cr-user-mini-toggle-name {
+    color: inherit;
+
+    &.light {
+      color: inherit;
+    }
+  }
+}
+
+.cr-user-mini-toggle-balance-dropdown-list {
+  @media screen and (min-width: @screen-md) {
+    display: none;
+  }
+  display: block;
+}

@@ -1,0 +1,14 @@
+// wrapModalErrorStatus
+.wrapModalErrorStatus{
+  .modal_title_error{
+    font-size: 14px !important;
+  }
+  .pageHelp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .description{
+      text-align: center;
+    }
+  }
+}

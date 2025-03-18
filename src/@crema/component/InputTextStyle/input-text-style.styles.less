@@ -1,0 +1,26 @@
+@import '../../../shared/styles/variable.less';
+.ant-input-text-style {
+  gap: 16px;
+  display: flex;
+  height: 32px;
+  .ant-input-text {
+    display: flex;
+    gap: 16px;
+  }
+  .ant-input-text_item {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+      background-color: @grey-300;
+    }
+  }
+
+  .ant-input-text_item-active {
+    color: @primary-color;
+  }
+}

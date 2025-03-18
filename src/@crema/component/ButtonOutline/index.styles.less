@@ -1,0 +1,24 @@
+@import '../../../shared/styles/variable';
+
+.outline-btn {
+  color: @btn-primary-color;
+  border: 2px solid @btn-primary-color;
+  font-size: @font-size-base;
+  padding: 8px 14px;
+  background: @white;
+  &:hover,
+  &:focus {
+    background-color: fade(@black, 1);
+    color: @primary-color;
+  }
+
+  &.active {
+    color: @primary-color;
+
+    &:hover,
+    &:focus {
+      background-color: fade(@black, 1);
+      color: @primary-color;
+    }
+  }
+}

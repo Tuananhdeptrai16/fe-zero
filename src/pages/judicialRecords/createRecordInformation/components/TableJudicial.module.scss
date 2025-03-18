@@ -1,0 +1,37 @@
+.sync_success {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 4px;
+  width: 110px;
+
+  .personalInformation_icon {
+    width: 16px;
+    height: 16px;
+
+  }
+
+  .personalInformation_text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.85);
+  }
+}
+
+.areSynchronizing{
+  display: flex;
+  align-items: center;
+  & :global .ant-progress-outer{
+    width:68px;
+  }
+
+  & :global .ant-progress-inner{
+    background-color: #e3e3e3;
+  }
+
+  .text{
+    min-width: 100px;
+  }
+}

@@ -1,0 +1,55 @@
+@import '../../../shared/styles/variable.less';
+
+.vertical-align {
+  width: 100%;
+  height: 15%;
+  background: @grey-600;
+}
+
+.horizontal-align {
+  width: 15%;
+  height: 100%;
+  background: @grey-600;
+}
+
+.input-size {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  p {
+    margin: 0;
+  }
+  .input-size_item {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+
+    .ant-input-number {
+      width: auto;
+    }
+
+    .input-size-preview {
+      width: 100%;
+      height: 32px;
+      border: 1px solid @border-color-base;
+      margin-bottom: 8px;
+      &-top {
+        .vertical-align;
+      }
+      &-right {
+        .horizontal-align;
+        position: relative;
+        right: 0;
+        left: 86%;
+      }
+      &-bottom {
+        .vertical-align;
+        position: relative;
+        top: 86%;
+      }
+      &-left {
+        .horizontal-align;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.dataTableHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  .left {
+    & :global .ant-input {
+      min-height: 32px;
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+  }
+
+  .toolbarMini {
+    display: flex;
+    align-items: center;
+    & :global .ant-dropdown-menu{
+      min-width: 50px !important;
+    }
+  }
+
+  .toolbar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+}

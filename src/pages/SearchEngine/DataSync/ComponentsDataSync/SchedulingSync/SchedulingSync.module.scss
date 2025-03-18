@@ -1,0 +1,26 @@
+// wrapSchedulingSync
+.wrapSchedulingSync{
+  
+  .schedulingSync_title{
+    margin-bottom:22px;
+
+  }
+  .labelTimeStart{
+    padding-right:10px;
+  }
+
+  .contentSchedulingSync{
+     & :global .ant-form-item-label{
+      min-width: 150px;
+      text-align: left;
+     }
+
+     .wrapBtnViewListSync{
+       
+      .title{
+        color: rgba(4, 120, 87, 1);
+      }
+     }
+  }
+
+}

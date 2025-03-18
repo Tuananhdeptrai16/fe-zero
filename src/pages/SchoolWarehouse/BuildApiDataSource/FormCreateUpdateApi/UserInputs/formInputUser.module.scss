@@ -1,0 +1,16 @@
+.formInputUser{
+  .formInputUserSwitch{
+    & :global .ant-row{
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      gap:8px;
+    }
+    & :global .ant-form-item-control{
+      flex:0;
+    }
+
+    & :global .ant-form-item{
+      margin-bottom: 8px;
+    }
+  }
+}

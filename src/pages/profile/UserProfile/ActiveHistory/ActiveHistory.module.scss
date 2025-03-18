@@ -1,0 +1,109 @@
+.wrapActiveHistory {
+  //padding-left: 4px;
+  .wrapNotDataHistory {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  & :global .ant-list-header {
+    padding: 0;
+  }
+
+  & :global .ant-spin-nested-loading {
+    padding-top: 24px;
+  }
+
+  & :global .ant-list-pagination {
+    margin-bottom: 20px;
+  }
+
+  & :global .ant-pagination {
+    margin-right: 0 !important;
+    li {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+
+    & :global .ant-pagination-total-text {
+      margin-right: 16px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      color: rgba(0, 0, 0, 0.85);
+    }
+  }
+
+  .activeHistory_header {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.85);
+  }
+
+  .listHistory {
+
+    .listHistory_item {
+      //border: none !important;
+      //box-shadow: 0 1px 0 0 #F0F0F0;
+
+
+      .listHistory_meta {
+
+
+        .listHistory_meta_avatar {
+
+        }
+
+        .listHistory_meta_content {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+
+          .listHistory_meta_content_text {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            color: rgba(0, 0, 0, 0.85);
+            margin: 0;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-word;
+
+          }
+
+          .listHistory_meta_content_link {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            // color: #007BEC;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-word;
+          }
+        }
+
+        .listHistory_meta_des {
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 22px;
+          color: rgba(0, 0, 0, 0.45);
+          margin: 0;
+        }
+
+      }
+    }
+  }
+}

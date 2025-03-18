@@ -1,0 +1,75 @@
+.wrapDetailsVerified{
+ 
+  & :global .ant-card-body{
+    padding:0 24px 24px 24px;
+  }
+
+  & :global .ant-tabs-tab-btn{
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: rgba(0, 0, 0, 0.85);
+  }
+
+  & :global .ant-tabs-nav{
+    margin-bottom:24px;
+  }
+
+  & :global .ant-input.ant-input-disabled{
+    color: rgba(0, 0, 0, 0.85);
+  }
+
+  .btnSync{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .areSynchronizing{
+    display: flex;
+    align-items: center;
+    & :global .ant-progress-outer{
+      width:96px;
+    }
+
+    .text{
+      min-width: 100px;
+    }
+  }
+
+  .sync_success {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .personalInformation_icon {
+      width: 16px;
+      height: 16px;
+
+    }
+
+    .personalInformation_text {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      margin: 0;
+      color: rgba(0, 0, 0, 0.85);
+    }
+  }
+
+
+  .wrapAcSync{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+  }
+
+  & :global .ant-space.ant-space-horizontal{
+   align-items: flex-end;
+  }
+  
+}

@@ -1,0 +1,25 @@
+.wrapConfigSearch{
+  max-width: 70%;
+  margin: 10px auto;
+  .config_header{
+
+    .config_header_title{
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 6px;
+      display: inline-block;
+    }
+    .input{
+
+    }
+  }
+
+  // wrapActionConfig
+  .wrapActionConfig{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    gap:16px;
+    margin-top:18px;
+  }
+}

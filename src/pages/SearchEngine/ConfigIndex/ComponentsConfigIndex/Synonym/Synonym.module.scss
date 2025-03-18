@@ -1,0 +1,68 @@
+.wrapActionAddSynonym{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom:16px;
+  margin-top:10px;
+}
+
+.wrapActionEdit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+ .iconEdit{
+  font-size: 18px;
+  &:hover{
+    cursor: pointer;
+    opacity: 0.8;
+  }
+ }
+ .iconDel{
+  font-size: 18px;
+  color:red;
+  &:hover{
+    cursor: pointer;
+    opacity: 0.8;
+  }
+ }
+}
+
+.formAddSynonym{
+  .formAddSynonym_content{
+     
+    .formAddSynonym_content_header{
+      .title{
+        margin-bottom:4px;
+      }
+      .radio_types{
+      width: 100%;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      border-radius: 4px;
+      padding: 8px 16px;
+      }
+    }
+    .formAddSynonym_content_main{
+      margin-top:30px;
+      .title_main{
+        margin-bottom:4px;
+      }
+    }
+  }
+}
+.wrapConfirmDelete{
+ display: flex;
+ align-items: center;
+ gap: 4px;
+ flex-wrap: wrap;
+}
+
+.renderTextSynonym{
+  display: flex;
+  align-items: center;
+  gap: 1px;
+   
+  .text{
+    // min-width: 2%;
+  }
+}

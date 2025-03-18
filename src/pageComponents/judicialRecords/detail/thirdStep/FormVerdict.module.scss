@@ -1,0 +1,12 @@
+.detailSeparate {
+    padding-left: 20px;
+    &+li{
+        border-left: 1px solid rgba(0, 0, 0, 0.15)
+    }
+}
+
+.listDetailSeparate {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}

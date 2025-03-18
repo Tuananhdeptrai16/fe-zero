@@ -1,0 +1,21 @@
+.wrapCreateTable{
+ 
+  .tableAntd{
+    & :global .ant-form-item{
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .renderNotFoundItem{
+    text-align: center;
+
+    .notFoundIcon{
+      font-size: 20px;
+    }
+    .notFoundText{
+      margin-bottom: 0;
+      color:#f97316
+    }
+  }
+  
+}

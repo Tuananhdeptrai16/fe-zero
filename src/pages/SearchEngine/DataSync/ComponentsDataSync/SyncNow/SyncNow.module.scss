@@ -1,0 +1,77 @@
+.wrapSyncNow{
+
+
+  .syncNowContents{
+    margin-top:16px;
+    .content_title{
+      color:rgba(4, 120, 87, 1);
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 18px;
+      display: block;
+      margin-bottom:8px;
+    }
+  }
+
+  .viewSync{
+    .viewSync_header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .viewSync_content{
+      margin-top:24px;
+      padding:0 24px;
+
+      .viewSync_content_title{
+        display: flex;
+        align-items: center;
+        gap:8px;
+
+        .icon{
+          color:rgba(78, 203, 113, 1);
+          font-size: 20px;
+        }
+        .SyncError{
+          color:red;
+        }
+
+        &.viewSync_error{
+          flex-direction: column;
+          align-items: flex-start;
+          .syncError_title{
+            display: flex;
+            align-items: center;
+            gap:8px;
+          }
+        }
+      }
+
+      .tableSync{
+        margin-top:26px;
+      }
+    }
+  }
+
+  
+}
+
+// wrapModalErrorStatus
+.wrapModalErrorStatus{
+  .modal_title_error{
+    font-size: 14px !important;
+  }
+  .pageHelp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .description{
+      text-align: center;
+    }
+  }
+}
+
+.messageWaning{
+  margin-top:6px;
+  color:red
+}

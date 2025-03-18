@@ -1,0 +1,75 @@
+const CATEGORY_TOPIC_CONSTANT = {
+  ALL: 'Tât cả',
+  ONE: 'Chủ đề 1',
+  TWO: 'Chủ đề 2',
+  THREE: 'Chủ đề 3',
+  FOUR: 'Chủ đề 4',
+  FIVE: 'Chủ đề 5',
+};
+export const CATEGORY_TOPIC = {
+  ALL: 'all',
+  ONE: 'one',
+  TWO: 'two',
+  THREE: 'three',
+  FOUR: 'four',
+  FIVE: 'five',
+};
+
+export const MAPPING_CATEGORY_TOPIC = {
+  [CATEGORY_TOPIC.ALL]: CATEGORY_TOPIC_CONSTANT.ALL,
+  [CATEGORY_TOPIC.ONE]: CATEGORY_TOPIC_CONSTANT.ONE,
+  [CATEGORY_TOPIC.TWO]: CATEGORY_TOPIC_CONSTANT.TWO,
+  [CATEGORY_TOPIC.THREE]: CATEGORY_TOPIC_CONSTANT.THREE,
+  [CATEGORY_TOPIC.FOUR]: CATEGORY_TOPIC_CONSTANT.FOUR,
+  [CATEGORY_TOPIC.FIVE]: CATEGORY_TOPIC_CONSTANT.FIVE,
+};
+
+export const listCategoryOption = [
+  {
+    label: CATEGORY_TOPIC_CONSTANT.ONE,
+    value: CATEGORY_TOPIC.ONE,
+  },
+  {
+    label: CATEGORY_TOPIC_CONSTANT.TWO,
+    value: CATEGORY_TOPIC.TWO,
+  },
+  {
+    label: CATEGORY_TOPIC_CONSTANT.THREE,
+    value: CATEGORY_TOPIC.THREE,
+  },
+  {
+    label: CATEGORY_TOPIC_CONSTANT.FOUR,
+    value: CATEGORY_TOPIC.FOUR,
+  },
+  {
+    label: CATEGORY_TOPIC_CONSTANT.FIVE,
+    value: CATEGORY_TOPIC.FIVE,
+  },
+];
+
+export const listCategoryOptionWithAll = [
+  {
+    label: CATEGORY_TOPIC_CONSTANT.ALL,
+    value: CATEGORY_TOPIC.ALL,
+  },
+  {
+    label: CATEGORY_TOPIC_CONSTANT.ONE,
+    value: CATEGORY_TOPIC.ONE,
+  },
+  {
+    label: CATEGORY_TOPIC_CONSTANT.TWO,
+    value: CATEGORY_TOPIC.TWO,
+  },
+  {
+    label: CATEGORY_TOPIC_CONSTANT.THREE,
+    value: CATEGORY_TOPIC.THREE,
+  },
+  {
+    label: CATEGORY_TOPIC_CONSTANT.FOUR,
+    value: CATEGORY_TOPIC.FOUR,
+  },
+  {
+    label: CATEGORY_TOPIC_CONSTANT.FIVE,
+    value: CATEGORY_TOPIC.FIVE,
+  },
+];

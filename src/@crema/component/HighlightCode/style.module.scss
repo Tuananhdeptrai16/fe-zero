@@ -1,0 +1,15 @@
+.highlightCode {
+  position: relative;
+
+  .action {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    font-size: 16px;
+
+    svg {
+      fill: #fff;
+    }
+  }
+}

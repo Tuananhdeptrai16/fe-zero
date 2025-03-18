@@ -1,0 +1,33 @@
+// haha
+.font-face(
+  @name,
+  @fontName,
+  @weight: null,
+  @style: null,
+  @exts: eot woff2 woff otf ttf svg
+) {
+  @font-face {
+    font-family: @name;
+    font-style: @style;
+    font-weight: @weight;
+    src: url("/assets/fonts/@{name}/@{fontName}.@{exts}");
+  }
+}
+
+.import-fonts(@name, @font-styles, @exts: eot woff2 woff otf ttf svg) {
+  each(@font-styles, {
+    .font-face(@name, @key, @value, normal, @exts);
+    .font-face(@name, '@{key}Italic', @value, italic, @exts);
+  })
+}
+
+@styles: {
+  Thin: 100;
+  Light: 300;
+  Regular: 400;
+  Medium: 500;
+  Bold: 700;
+  Black: 900;
+};
+//@styles: UltraLight , Thin 200, Light 300, Regular 400, Medium 500, SemiBold 600, Bold 700, Heavy 800;
+.import-fonts('Roboto', @styles, 'ttf');

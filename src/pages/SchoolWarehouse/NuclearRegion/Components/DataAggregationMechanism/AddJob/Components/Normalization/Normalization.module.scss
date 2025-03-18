@@ -1,0 +1,83 @@
+.wrapFormListRules{
+  border: 1px solid #416ef0;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #f0f4fe;
+
+  .ruleItem{
+    border: 1px solid #416ef0;
+    border-radius: 8px;
+    padding: 6px 12px;
+    background-color: #f0f4fe;
+    margin-bottom: 8px;
+  }
+
+  .wrapFormType{
+    display: flex;
+    align-items: flex-end;
+    & :global .ant-form-item{
+      margin-bottom: 8px !important;
+    }
+
+    .btnAdd{
+      position: relative;
+      bottom: 8px;
+    }
+  }
+
+}
+
+.wrapAddCondition{
+
+  .wrapAceEditor{
+    padding-bottom:16px;
+    border-bottom:1px solid rgba(240, 240, 240, 1) !important;
+  }
+ 
+  .contentAddSelect{
+    & :global .ant-col:first-child{
+      border-right: 1px solid rgba(240, 240, 240, 1) !important;
+    }
+
+    & :global .ant-list-item-meta-title{
+      font-weight: 400 !important;
+    }
+  }
+}
+
+.wrapFromFormula{
+
+  & :global .ant-form-item{
+    margin-bottom:8px !important;
+  }
+
+  .label_select_table_formula{
+    display: inline-block; 
+    margin-top: 8px; 
+    margin-bottom:8px;
+    position: relative;
+    padding-right:8px;
+    
+    &::after{
+     position: absolute;
+     right: 0px;
+     top:0;
+     display: inline-block;
+     color: #ff4d4f;
+     font-size: 14px;
+     font-family: SimSun, sans-serif;
+     line-height: 1;
+     content: '*';
+    }
+  
+   
+  }
+
+  .condition_formula{
+    border: 1px solid #416ef0;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #f0f4fe;
+    margin-bottom: 8px;
+  }
+}

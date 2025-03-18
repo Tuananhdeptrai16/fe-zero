@@ -1,0 +1,68 @@
+@import '../../../shared/styles/variable';
+
+.main-content-view {
+   padding: 16px 16px 10px;
+  //padding:4px;
+
+  @media screen and (min-width: @screen-md) {
+    padding: 16px 16px 10px;
+    //padding: 4px;
+  }
+
+  .sticky-header {
+    margin: -24px -20px 24px;
+    z-index: 5;
+    border-radius: 0;
+    position: sticky;
+    top: 112px;
+
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #fff;
+
+    box-shadow: 0px 2px 8px 0px #0000001A;
+
+    @media screen and (min-width: @screen-md) {
+      margin: 0 0 24px;
+    }
+    
+    & > .ant-tabs-nav {
+      margin-bottom: 0;
+    }
+
+    .ant-card-body {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+  }
+  
+  .tab-sticky-header {
+    //.ant-table-sticky-holder {
+    //  top: 122px!important;
+    //}
+  }
+  
+  .sticky-footer {
+    margin: 20px -20px -60px;
+    border-radius: 0;
+    position: sticky;
+    bottom: 0;
+
+    @media screen and (min-width: @screen-md) {
+      margin: 20px -24px -60px;
+    }
+    
+    .ant-card-body {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+  }
+}
+
+.main-content-view-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: auto;
+}

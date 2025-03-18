@@ -1,0 +1,13 @@
+.wrapSystemMonitoringReport{
+  background-color: white;
+  padding: 16px 24px;
+  border-radius: 4px;
+
+  .wrapIframe{
+  border:none;
+  }
+
+  & :global .ant-tabs-content-holder{
+    overflow: hidden;
+  }
+}

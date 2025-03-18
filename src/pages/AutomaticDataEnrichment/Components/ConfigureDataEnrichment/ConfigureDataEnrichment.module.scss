@@ -1,0 +1,88 @@
+// wrapConfig
+.wrapConfig{
+  .header_config{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:16px;
+    .wrapActions{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex: 1;
+      width: 100%;
+      gap:8px;
+      // background-color: white;
+      // padding: 16px;
+      border-radius: 4px;
+    }
+  }
+  .configTitle{
+    flex:1;
+  }
+  
+
+  .configNameConnection{
+   padding:16px;
+   border-radius: 4px;
+   text-align: center;
+   word-break: break-word;
+   margin:0;
+   background-color: white !important;
+   color: #416ef0;
+   margin-bottom:16px;
+  }
+}
+
+
+// wrapSourceTable
+.wrapSourceTable{
+  .spinSync{
+    margin-bottom: 52px;
+    margin-top: 18px;
+  }
+
+}
+.wrapViewLogs{
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+
+  .itemsViewLog{
+    display: flex;
+    align-items: center;
+    gap:10px;
+  
+    .itemsViewLog_content{
+      margin:0;
+    }
+  }
+}
+
+.toolTipIcon{
+  &:hover{
+    cursor: pointer;
+    opacity: 0.8;
+   }
+};
+.iconAction{
+  font-size: 18px;
+ }
+
+
+ .header_detail_record{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .itemCursor{
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 3px;
+  padding:4px 6px;
+  transform: all 0.1s linear;
+  &:hover{
+    cursor: pointer;
+    background-color: #f1e8dd;
+    border-color: #cca670;
+  }
+ }

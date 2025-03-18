@@ -1,0 +1,12 @@
+.wrapIframeMito{
+  background-color: #eee;
+  padding: 16px 24px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+
+  .iframeMito{
+    border: none;
+    margin-top:0;
+  }
+}

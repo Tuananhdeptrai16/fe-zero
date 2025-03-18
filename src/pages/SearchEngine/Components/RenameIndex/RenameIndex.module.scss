@@ -1,0 +1,28 @@
+.actions{
+  display: flex;
+  justify-content: flex-end;
+  gap:12px;
+  margin-top:30px;
+}
+
+.renameIndex_content{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  .main_header__label{
+    cursor: pointer;
+    font-weight: 500;
+  }
+   
+  .wrapInput{
+    flex:1;
+    position: relative;
+    .errorMessage{
+      color:red;
+      position: absolute;
+      left: 0;
+      bottom: -22px;
+    }
+  }
+ 
+}

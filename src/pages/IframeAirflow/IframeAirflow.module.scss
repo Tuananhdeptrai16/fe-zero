@@ -1,0 +1,26 @@
+.wrapIframeAirflow{
+  background-color: white;
+  padding: 16px 24px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+
+  .iframeAirflow{
+    border: none;
+    margin-top:-90px;
+  }
+
+  .wrapIframeAirflow_action{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+    position: relative;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 20px;
+    min-height: 60px;
+  }
+}

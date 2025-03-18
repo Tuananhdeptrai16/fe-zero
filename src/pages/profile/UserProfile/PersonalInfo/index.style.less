@@ -1,0 +1,71 @@
+@import '../../../../shared/styles/variable';
+
+.info-upload {
+  margin-bottom: 20px;
+
+  & .ant-form-item-control-input-content {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.info-upload-avatar {
+  margin-right: 16px;
+  width: 50px;
+  height: 50px;
+
+  [dir=rtl] & {
+    margin-right: 0;
+    margin-left: 16px;
+  }
+
+  @media screen and (min-width: @screen-lg) {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+.info-upload-avatar-no-avatar {
+  font-size: 28px;
+  background-color: @orange-6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  width: 50px;
+  height: 50px;
+  @media screen and (min-width: @screen-lg) {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+.info-upload-content {
+  flex: 1;
+  font-size: @font-size-sm;
+  color: @text-color-secondary;
+
+  & p {
+    margin-bottom: 0;
+  }
+}
+
+.info-upload-btn-group {
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+
+  & .dropzone {
+    margin-right: 10px;
+
+    [dir=rtl] & {
+      margin-right: 0;
+      margin-left: 10px;
+    }
+  }
+
+  & .ant-btn {
+    height: 30px;
+    padding: 3.5px 12px;
+  }
+}

@@ -1,0 +1,18 @@
+.actions{
+  display: flex;
+  justify-content: flex-end;
+  gap:12px;
+  margin-top:18px;
+}
+
+.wrapColumnOld{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapFormContent{
+  & :global .ant-form-item{
+    margin-bottom:0px;
+  }
+}

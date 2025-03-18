@@ -1,0 +1,5 @@
+.wrapTableNuclear{
+  & :global .ant-dropdown-menu{
+    min-width: 200px !important;
+  }
+}

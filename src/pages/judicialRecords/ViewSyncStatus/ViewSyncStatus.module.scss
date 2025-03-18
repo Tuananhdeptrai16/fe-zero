@@ -1,0 +1,235 @@
+.wrapContentSyncViewStatus {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .cardItemSyncCitizen {
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: unset;
+
+    & :global .ant-card-body {
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .syncCitizen_title {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      margin: 0;
+      color: rgba(0, 0, 0, 0.85);
+    }
+
+    .syncCitizen_wrap_name {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      max-width: 70%;
+
+      &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+        transition: all 0.1s linear;
+      }
+
+      .syncCitizen_name {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        margin: 0;
+        color: rgba(0, 123, 236, 1);
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 95%;
+        word-break: break-word;
+
+      }
+
+      .syncCitizen_icon {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+
+  //  wrapInfoSyncItem
+  .wrapInfoSyncItem {
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: unset;
+
+    &.personInfo {
+      padding: 16px 0;
+    }
+
+    & :global .ant-card-body {
+      padding: 0 24px;
+    }
+
+    & :global .ant-card-head {
+      padding-left: 24px;
+      padding-right: 24px;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      color: rgba(0, 0, 0, 0.85);
+    }
+
+    & :global .ant-card-head-title {
+      padding: 16px 0;
+
+    }
+
+    .sync_success {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      .personalInformation_icon {
+        width: 16px;
+        height: 16px;
+
+      }
+
+      .personalInformation_text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        margin: 0;
+        color: rgba(0, 0, 0, 0.85);
+      }
+    }
+
+    .areSynchronizing {
+      display: flex;
+      align-items: center;
+      min-width: 164px;
+      gap: 8px;
+
+      & :global .ant-progress {
+        width: 68px;
+      }
+
+      & :global .ant-progress-inner {
+        background-color: rgba(225, 225, 225, 0.93);
+      }
+
+      .text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        margin: 0;
+        color: rgba(0, 0, 0, 0.85);
+      }
+    }
+
+    //thong tin ca nhan
+    .personalInformation {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .personalInformation_title {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        margin: 0;
+        color: rgba(0, 0, 0, 0.85);
+      }
+
+      .personalInformation_content {
+
+      }
+    }
+
+    //  thong tin ban an
+    .judgmentInformation {
+
+      .judgmentInformation_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.15);
+
+        .judgmentInformation_header_title {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          color: rgba(0, 123, 236, 1);
+          text-decoration: none;
+          margin: 0;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 1;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          max-width: 80%;
+
+          &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+            transition: all 0.1s linear;
+          }
+
+        }
+
+      }
+
+      .judgmentInformation_table {
+        & :global .ant-table-container {
+          border-top: 1px solid rgba(0, 9, 18, 0.15);
+          border-bottom: 1px solid rgba(0, 9, 18, 0.15);
+          border-radius: 4px;
+          margin-bottom: 24px;
+        }
+
+        & :global .ant-table-header {
+          .ant-table-thead {
+            .ant-table-cell {
+              background-color: #f0f0f1;
+              //styleName: body/semibold;
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 22px;
+              color: rgba(0, 9, 18, 1);
+
+              .ant-table-column-sorters {
+                gap: 8px;
+                justify-content: flex-start;
+
+                .ant-table-column-title {
+                  flex: unset;
+
+
+                }
+              }
+            }
+          }
+        }
+
+        & :global .ant-table-body {
+          .ant-table-tbody {
+            .ant-table-row {
+              .ant-table-cell {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                color: rgba(0, 9, 18, 1);
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+

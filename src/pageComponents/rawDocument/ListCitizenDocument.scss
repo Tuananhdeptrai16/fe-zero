@@ -1,0 +1,25 @@
+.divider {
+  margin: 0;
+}
+
+.block-citizen, .block-document {
+  &:not(:last-of-type) {
+    margin-bottom: 16px;
+    .block-content {
+      border-bottom: 1px solid #00000026;
+    }
+  }
+
+  .block-content {
+    .block-title {
+      height: 46px;
+
+      display: flex;
+      align-items: center;
+
+      font-weight: 600;
+
+      border-bottom: 1px solid #00000026;
+    }
+  }
+}

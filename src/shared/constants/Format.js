@@ -1,0 +1,13 @@
+export const SQL_DATE = 'YYYY-MM-DD';
+export const SQL_ISO_DATE = 'YYYY-MM-DD[T]HH:mm:ss.SSS[Z]';
+export const DATE = 'DD/MM/YYYY';
+export const MONTH = 'MM/YYYY';
+export const SQL_TIMESTAMP = 'YYYY-MM-DD HH:mm:ss';
+export const TIMESTAMP = 'DD/MM/YYYY HH:mm:ss';
+export const DATE_TIME = 'HH:mm DD/MM/YYYY';
+export const TIME = 'hh:mm a';
+export const TIME_FULL = 'hh:mm:ss a';
+export const TIME_FULL_24 = 'HH:mm:ss';
+export const DECIMAL = '0,0.[000]';
+export const START_TIME = 'YYYY-MM-DD 00:00:00';
+export const END_TIME = 'YYYY-MM-DD 23:59:59';

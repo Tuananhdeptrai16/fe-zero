@@ -1,0 +1,38 @@
+.wrapAddIndex{
+   
+  .addIndexContent{
+    background-color: white;
+    border-radius: 4px;
+    padding: 16px 24px;
+    display: flex;
+    align-items: flex-start;
+    min-height:calc(100vh - 100px);
+    .addIndexContent_title{
+      padding-bottom:16px;
+    }
+   
+    .steps{
+      max-width: 206px;
+      border-right: 1px solid #ccc;
+    }
+    .contentSteps{
+      padding-left:16px;
+      flex:1;
+      padding-top:40px;
+        
+      .stepContent_custom{
+
+      }
+      .stepContent_actions{
+
+      }
+    }
+
+    & :global .ant-steps-item-title{
+      font-size: 14px;
+    }
+    & :global .ant-steps-item{
+      padding-bottom:16px;
+    }
+  }
+}

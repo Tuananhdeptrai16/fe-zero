@@ -1,0 +1,24 @@
+@import '../../../../shared/styles/variable.less';
+@import '../../../../shared/styles/mixin';
+
+.sampleForm__radio-item {
+  padding: 12px 12px 0 12px;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sampleForm_group_space {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  .ant-space-item {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 350px;
+    &:has(.ant-radio-wrapper-checked) {
+      border: 1px solid @primary-color;
+    }
+  }
+}
